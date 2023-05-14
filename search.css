@@ -1,0 +1,184 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #DD7438;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+h2{
+    font-family: "Grape Nuts", sans-serif;
+    font-size: 2em;
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.7em;
+}
+
+
+header{
+    display: flex;
+    justify-content: left;
+}
+
+.nav{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+button{
+    padding:0.6em 2em;
+    border-radius: 6px;
+    color:#fff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size:0.8em;
+    border:0;
+    cursor:pointer;
+    margin: 2px;
+}
+
+
+button.location-button {
+    background-color:#DD7438;
+}
+
+button.star-rating-button {
+    background-color:#DD38B9;
+}
+
+button.cafe-button {
+    background-color:#38BFDD;
+}
+  
+button.restaurant-button {
+      background-color:#DDCD38;
+}
+
+button.desserts-button {
+    background-color:#DD386A;
+}
+
+button.bars-button {
+    background-color:#C6DD38;
+}
+  
+
+
+
+/*
+.thumb1 { 
+    background: url(IMG/Pophams/Pophams_3.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    /*
+    width: 250px;
+    height: 250px;
+  }
+  
+  .thumb1:hover { YOUR HOVER STYLES HERE }
+*/
+
+body{
+    background-color: #ffffff;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    min-height: 50vh;
+    position: relative;
+    max-width: 1350px;
+}
+
+.card{
+    display: flex;
+    position: relative;
+    background: #ffffff;
+    margin: 20px 0px 0px 40px;
+    padding: 15px;
+    float: left;
+}
+
+.imgbox{
+    max-width: 250px;
+    flex: 0 0 250px;
+}
+
+.imgbox img{
+    max-width: 100%;
+}
+
+.content{
+    margin-left: 20px;
+}
+
+.content-info{
+    display: flex;
+    flex-direction:row;
+    text-align:bottom;
+    justify-content: space-between;
+    padding:0px;
+}
+
+.content-person{
+    color: #676767;
+}
+
+
+@media (max-width: 991px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+        max-width: 350px;
+    }
+    .imgbox{
+        max-width: 100%;
+
+    }
+}
+
+
+
+/*   .pophams{
+    width: 90%;
+    margin: 62px 32px 88px 50px;
+    padding-bottom: 0.5%;
+  }
+
+  .pophams-text{
+    padding-left: 20;
+  }
+
+  .shapes{
+    margin: 62px 32px 88px 50px;
+  }
+
+  .jolene{
+    margin: 62px 32px 88px 50px;
+  }
+
+  .crosstown{
+    margin: 62px 32px 88px 50px;
+  } */
